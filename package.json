@@ -1,0 +1,13 @@
+{
+  "name": "pg-project-structure",
+  "version": "1.0.0",
+  "description": "Database context template for node postgresql project structure",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["node", "postgresql", "database", "context", "template", "structure", "design", "pattern", "pg", "pg-project-structure"],
+  "author": "abenteuerzeit",
+  "license": "MIT"
+}
