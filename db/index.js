@@ -16,7 +16,7 @@ module.exports = {
         console.log('executed query', { text, duration, rows: res.rowCount });
         return res;
     },
-    getClient: (callback) => {
+    async getClient () {
         const client = await pool.connect();
         const query = client.query;
         const release = client.release;
