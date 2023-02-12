@@ -7,7 +7,21 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["node", "postgresql", "database", "context", "template", "structure", "design", "pattern", "pg", "pg-project-structure"],
+  "keywords": [
+    "node",
+    "postgresql",
+    "database",
+    "context",
+    "template",
+    "structure",
+    "design",
+    "pattern",
+    "pg",
+    "pg-project-structure"
+  ],
   "author": "abenteuerzeit",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
